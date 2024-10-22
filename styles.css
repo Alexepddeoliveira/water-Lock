@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    background-color: #ff6700; /* Laranja vibrante */
+    background-color: #fa9939; /* Laranja vibrante */
     color: #000000; /* Texto preto */
     padding: 10px;
     text-align: center;
@@ -35,7 +35,7 @@ nav ul li a {
 section {
     margin: 20px;
     padding: 20px;
-    background-color: #e0f7ff; /* Azul claro para dar contraste ao fundo branco */
+    background-color: #045174; /* Azul claro para dar contraste ao fundo branco */
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
