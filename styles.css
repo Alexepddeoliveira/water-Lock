@@ -45,14 +45,15 @@ nav ul li a {
 
 .slides {
     display: flex;
+    transition: transform 1s ease-in-out;
     animation: slide 15s infinite;
-    width: 300%;
+    width: 300%; /* Para garantir que todas as imagens caibam */
 }
 
 .slides img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Ajusta a imagem ao container */
+    object-fit: cover;
 }
 
 @keyframes slide {
