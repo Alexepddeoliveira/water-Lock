@@ -9,6 +9,10 @@ body {
     background-color: #FFFFFF; /* Fundo branco */
     color: #000000; /* Texto preto */
 }
+.logo img {
+    max-width: 150px;
+    height: auto;
+}
 
 header {
     background-color: #1BC9F5; /* Azul vibrante */
