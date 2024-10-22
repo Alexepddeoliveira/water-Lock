@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cofres Seguros</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Cofres Seguros</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="sobre">
+        <h2>Sobre Nós</h2>
+        <p>Nossos cofres são projetados para proteger seus pertences enquanto você pratica esportes ao ar livre.</p>
+    </section>
+
+    <section id="produtos">
+        <h2>Produtos</h2>
+        <div class="produto">
+            <h3>Cofre Leve 1</h3>
+            <p>Proteção compacta e leve.</p>
+        </div>
+        <div class="produto">
+            <h3>Cofre Leve 2</h3>
+            <p>Mais espaço com a mesma segurança.</p>
+        </div>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <form id="formContato">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Cofres Seguros. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
