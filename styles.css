@@ -6,13 +6,13 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #ffffff; /* Fundo branco */
+    color: #000000; /* Texto preto */
 }
 
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #ff6700; /* Laranja vibrante */
+    color: #000000; /* Texto preto */
     padding: 10px;
     text-align: center;
 }
@@ -28,14 +28,14 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #000000; /* Links em preto */
     text-decoration: none;
 }
 
 section {
     margin: 20px;
     padding: 20px;
-    background-color: #fff;
+    background-color: #e0f7ff; /* Azul claro para dar contraste ao fundo branco */
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -47,9 +47,40 @@ section {
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #333;
-    color: #fff;
+    background-color: #ff6700; /* Laranja */
+    color: #000000; /* Texto preto */
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+/* Adicionando estilos ao formulário */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 2px solid #000000; /* Bordas pretas */
+    border-radius: 5px;
+    background-color: #ffffff; /* Fundo branco */
+}
+
+form button {
+    background-color: #ff6700; /* Botão laranja */
+    color: #ffffff; /* Texto branco no botão */
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0077ff; /* Azul mais escuro quando o botão é hover */
 }
